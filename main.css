@@ -17,8 +17,16 @@ body {
 }
 
 .quote {
-    font-family: Julius Sans One, sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 2.5rem;
     line-height: 3.75rem;
     text-align: center;
+}
+
+.author {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 3.1rem;
+    font-style: italic;
 }
