@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/freedom.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
