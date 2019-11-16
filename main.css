@@ -5,6 +5,20 @@
 body {
     background: url(assets/freedom.jpg) no-repeat center;
     background-size: cover;
-    width: 100vw;
+    background-color: #000;
+    width: 100%;
     height: 100vh;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 6.5rem;
+}
+
+.quote {
+    font-family: Julius Sans One, sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    text-align: center;
 }
