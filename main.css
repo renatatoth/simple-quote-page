@@ -2,31 +2,77 @@
     box-sizing: border-box;
 }
 
-body {
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 1rem;
     background: url(assets/freedom.jpg) no-repeat center;
     background-size: cover;
     background-color: #000;
-    width: 100%;
-    height: 100vh;
-}
-
-.wrapper {
-    width: 90%;
-    margin: 0 auto;
-    padding-top: 6.5rem;
 }
 
 .quote {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 2.5rem;
-    line-height: 3.75rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     text-align: center;
 }
 
+
 .author {
     font-family: 'Crimson Text', serif;
-    font-size: 1.25rem;
+    font-size: .85rem;
     text-align: center;
-    padding-top: 3.1rem;
+    padding-top: 1.4rem;
     font-style: italic;
+}
+
+@media (min-width:480px) {
+    .wrapper {
+        padding: 7rem 2rem;
+     }
+    .quote {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }  
+    .author {
+        font-size: 1.1rem;
+    }   
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        padding: 7rem 3rem;
+     }
+    .quote {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }  
+    .author {
+        font-size: 1.3rem;
+    }   
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        padding: 8rem 4rem;
+     }
+    .quote {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        padding: 9rem 5rem;
+     }  
+     .quote {
+       font-size: 2.3rem;
+       line-height: 2.8rem;
+     }
 }
